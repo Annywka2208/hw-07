@@ -37,6 +37,7 @@
             </li>
           </ul>
         </nav>
+
         <button type="button" class="mobile-menu-open js-open-menu">
           <svg class="mobile-menu-open__icon" width="32" height="22">
             <use
@@ -45,6 +46,7 @@
             ></use>
           </svg>
         </button>
+
         <address class="menu-address">
           <ul class="menu-list-address list">
             <li class="menu-item-address">
@@ -63,7 +65,7 @@
         <!-- mobile-menu -->
 
         <div class="mobile-menu is-open js-menu-container">
-          <div class="conteiner mobile-menu-conteiner">
+          <div class="mobile-menu-conteiner">
             <button class="mobile-menu-close-btn js-close-menu">
               <svg class="mobile-menu-close-icon" width="8" height="8">
                 <use
@@ -73,71 +75,77 @@
               </svg>
             </button>
 
-            <ul class="menu-list-mobile list">
-              <li class="menu-item-mobile">
-                <a class="menu-link-mobile link" href="./index.html">Studio</a>
-              </li>
+            <div class="top-help">
+              <ul class="menu-list-mobile list">
+                <li class="menu-item-mobile">
+                  <a class="menu-link-mobile link" href="./index.html"
+                    >Studio</a
+                  >
+                </li>
 
-              <li class="menu-item-mobile">
-                <a class="menu-link-mobile link" href="./portfolio.html"
-                  >Portfolio</a
-                >
-              </li>
+                <li class="menu-item-mobile">
+                  <a class="menu-link-mobile link" href="./portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
 
-              <li class="menu-item-mobile">
-                <a class="menu-link-mobile link" href="">Contacts</a>
-              </li>
-            </ul>
+                <li class="menu-item-mobile">
+                  <a class="menu-link-mobile link" href="">Contacts</a>
+                </li>
+              </ul>
+            </div>
 
-            <ul class="menu-list-address-mobile list">
-              <li class="menu-tel-address-mobile">
-                <a class="address-tel-mobile link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
+            <div class="help">
+              <ul class="menu-list-address-mobile list">
+                <li class="menu-tel-address-mobile">
+                  <a class="address-tel-mobile link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
 
-              <li class="menu-item-address-mobile">
-                <a
-                  class="address-mail-mobile link"
-                  href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-            </ul>
+                <li class="menu-item-address-mobile">
+                  <a
+                    class="address-mail-mobile link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
 
-            <ul class="profile-list mobile list">
-              <li class="profile-list-item mobile">
-                <a class="profile-list-link link" href="">
-                  <svg class="profile-list-icon" width="16" height="16">
-                    <use href="./Images/icons.svg#icon-instagram-2"></use>
-                  </svg>
-                </a>
-              </li>
+              <ul class="profile-list mobile list">
+                <li class="profile-list-item mobile">
+                  <a class="profile-list-link link" href="">
+                    <svg class="profile-list-icon" width="24" height="24">
+                      <use href="./Images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                  </a>
+                </li>
 
-              <li class="profile-list-item mobile">
-                <a class="profile-list-link link" href="">
-                  <svg class="profile-list-icon" width="16" height="16">
-                    <use href="./Images/icons.svg#icon-twitter-1"></use>
-                  </svg>
-                </a>
-              </li>
+                <li class="profile-list-item mobile">
+                  <a class="profile-list-link link" href="">
+                    <svg class="profile-list-icon" width="24" height="24">
+                      <use href="./Images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                  </a>
+                </li>
 
-              <li class="profile-list-item mobile">
-                <a class="profile-list-link link" href="">
-                  <svg class="profile-list-icon" width="16" height="16">
-                    <use href="./Images/icons.svg#icon-facebook-1"></use>
-                  </svg>
-                </a>
-              </li>
+                <li class="profile-list-item mobile">
+                  <a class="profile-list-link link" href="">
+                    <svg class="profile-list-icon" width="24" height="24">
+                      <use href="./Images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                  </a>
+                </li>
 
-              <li class="profile-list-item mobile">
-                <a class="profile-list-link link" href="">
-                  <svg class="profile-list-icon" width="16" height="16">
-                    <use href="./Images/icons.svg#icon-linkedin-1"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+                <li class="profile-list-item mobile">
+                  <a class="profile-list-link link" href="">
+                    <svg class="profile-list-icon" width="24" height="24">
+                      <use href="./Images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -156,7 +164,7 @@
       <!-- секция2 -->
       <section class="section-two">
         <div class="conteiner">
-          <h2 class="strategy-title">Our Strategy</h2>
+          <h2 class="strategy-title visually-hidden">Our Strategy</h2>
           <ul class="menu-list-strategy list">
             <li class="item-strategy">
               <div class="strategy-list-div">
@@ -291,7 +299,6 @@
                     ./Images/images/tablet/mark-tablet@2x.jpg 2x
                   "
                   media="(min-wigth: 768px)"
-                  sizes="264px"
                 />
 
                 <source
@@ -300,7 +307,6 @@
                     ./Images/images/mobile/mark-mobile@2x.jpg 2x
                   "
                   media="(max-wigth: 767px)"
-                  sizes="264px"
                 />
 
                 <img
