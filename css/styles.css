@@ -142,11 +142,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+
 
 }
 
 .menu-item-address-mobile {
-    margin-bottom: 48px;
+
     margin-top: 40px;
 }
 
@@ -248,13 +250,13 @@ body {
 }
 
 .menu-list-mobile {
-    margin-bottom: 20px;
+   margin-bottom: 0;
 }
 
 .menu-tel-address-mobile {
     font-family: inherit;
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 24px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -277,6 +279,7 @@ body {
 
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 .profile-list-item.mobile {
@@ -683,7 +686,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         text-transform: uppercase;
         color: var(--fon-title);
         margin-bottom: 16px;
-        justify-content: center;
+       
     }
 
     .logotipe {
@@ -773,7 +776,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     text-transform: uppercase;
     color: var(--fon-title);
     margin-bottom: 16px;
-    justify-content: center;
+  
 }
 
 .logotipe {
@@ -1530,6 +1533,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         text-transform: capitalize;
         color: var(--text-fon-color);
         margin-bottom: 8px;
+        text-align: start;
     }
 
 
@@ -1954,7 +1958,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 /* ===========================footer==============================  */
 
-@media screen and (min-width: 428px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     .footer-menu{
         display: flex;
@@ -2052,12 +2056,14 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 /* =================================tablet=========================  */
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
+
+    
         
     .footer-menu {
             display: flex;
             flex-direction: column;
             row-gap: 72px;
-            
+            padding-left: 106px;
            
         }
 
@@ -2086,6 +2092,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
             text-transform: uppercase;
             color: var(--fon-title);
             margin-bottom: 16px;
+            justify-content: start;
+
             
         }
     
@@ -2182,6 +2190,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
             display: block;
             width: 264px;
             margin-right: 120px;
+            
+           
     
         }
     
@@ -2194,6 +2204,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
             letter-spacing: 0.03em;
             text-transform: uppercase;
             margin-bottom: 16px;
+           
     
     
         }
@@ -2211,6 +2222,17 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         .modal-form-field-footer {
           width: 264px;
         }
+        
+        .footer-title-text {
+              margin-bottom: 16px;
+              color: var(--fon-title);
+              font-family: inherit;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 1.5;
+              letter-spacing: 0.02em;
+              text-align: start;
+                }
     
     
     
